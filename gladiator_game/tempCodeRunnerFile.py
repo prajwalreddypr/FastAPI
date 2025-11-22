@@ -1,1 +1,1 @@
-enemy.type_of_enemy = "Lord"
+zombie.type_of_enemy = "Zombie"

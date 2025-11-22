@@ -12,16 +12,18 @@
 
 from Enemy import *
 
-zombie = Enemy()
 
-zombie.type_of_enemy = "Zombie"
+#multiple objects of enemy
+zombie = Enemy('Zombie', 15, 3)
+big_zombie = Enemy("Big Zombie", 30, 5)
+
 
 print(f"{zombie.type_of_enemy} has {zombie.health_points} health points and  with an attak damage of {zombie.attack_damage}")
 
-zombie.talk()
-zombie.reply()
-zombie.walk_forward()
-zombie.attack()
-
+# zombie.talk()
+# zombie.reply()
+# zombie.walk_forward()
+# zombie.attack()
+print(big_zombie.attack_damage)
 
 
