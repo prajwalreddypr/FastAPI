@@ -1,1 +1,1 @@
-zombie.type_of_enemy = "Zombie"
+g
