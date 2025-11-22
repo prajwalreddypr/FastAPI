@@ -1,0 +1,1 @@
+enemy.type_of_enemy = "Lord"
