@@ -1,5 +1,5 @@
 from Enemy import *
-
+import random
 
 # Child class Ogre
 class Ogre(Enemy):
@@ -9,4 +9,10 @@ class Ogre(Enemy):
     def talk(self):
         print("Ogre is slamming hands all around")
         #method overrriding. overrides the talk function from Enemy.
+        
+    def special_attack(self):
+        did_special_attack_work = random.random() < 0.2
+        if did_special_attack_work:
+            self.attack_damage += 4
+            print("Ogre attack has increase by 4.")
     
